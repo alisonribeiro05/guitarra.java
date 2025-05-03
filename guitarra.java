@@ -5,7 +5,7 @@ public class guitarra {
     private String numeroSerie, fabricante, modelo, tipo, madeira;
     private double preco;
 
-    // Criação do construtor da classe Guitarra
+    
     public guitarra(
             String numeroSerie, String fabricante,
             String modelo, String tipo,
@@ -66,11 +66,10 @@ public class guitarra {
         this.preco = preco;
     }
 
-    // o método main() é o metodo principal da classe
+    
     public static void main(String[] args) {
-        // instanciamos um objeto chamado "minhaGuitara" que será do tipo "Guitarra"
-        // Os valores passados são usados pelo construtor da classe para criar
-        // o objeto
+   classe para criar
+      
         guitarra minhaguitarra = new guitarra("01020304", "fender", "telecaster",
                 "elétrica", "mogno", 1500);
         System.out.println("Número de Série: " + minhaguitarra.getNumeroSerie());
