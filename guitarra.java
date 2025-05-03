@@ -70,8 +70,8 @@ public class guitarra {
     public static void main(String[] args) {
    classe para criar
       
-        guitarra minhaguitarra = new guitarra("01020304", "fender", "telecaster",
-                "elétrica", "mogno", 1500);
+        guitarra minhaguitarra = new guitarra("03052025", "song", "Dreadnought",
+                "elétrica", "preto", 1750);
         System.out.println("Número de Série: " + minhaguitarra.getNumeroSerie());
         System.out.println("Fabricante: " + minhaguitarra.getFabricante());
         System.out.println("Modelo: " + minhaguitarra.getModelo());
