@@ -1,5 +1,3 @@
-package guitarra;
-
 public class guitarra {
 
     private String numeroSerie, fabricante, modelo, tipo, madeira;
